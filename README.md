@@ -281,4 +281,4 @@ Here are some screenshots of the project
 https://github.com/user-attachments/assets/6f79db15-d753-4ea4-85be-4e8e66d97562
 
 ## Contact
-For any questions or support, please contact [gunisudharani492@example.com](mailto:gunisudharani492@example.com).
+For any questions or support, please contact [gunisudharani492@example.com](mailto:gunisudharani492@gmail.com).
