@@ -1,0 +1,270 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 100px;
+	padding: 0;
+	background: url('image.jpg') no-repeat center center fixed;
+	background-size: cover;
+	color: white;
+}
+header .customer-button {
+	position: absolute;
+	right: 150px;
+	top: 10px;
+	background-color: #ecf0f1;
+	color: #2c3e50;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+header .home-customer:hover {
+	background-color: #2980b9;
+	color: #ecf0f1;
+}
+.links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.box {
+	background-color: #3498db;
+	color: white;
+	margin: 10px;
+	padding: 15px 30px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 1.1em;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+	flex: 1 1 200px;
+}
+
+.box:hover {
+	background-color: #2980b9;
+	transform: scale(1.05);
+}
+
+.box a {
+	text-decoration: none;
+	color: white;
+}
+
+h2 {
+	color: #007BFF;
+	text-align: center;
+	margin-top: 20px;
+}
+
+header .home-button {
+	position: absolute;
+	right: 50px;
+	top: 10px;
+	background-color: #ecf0f1;
+	color: #2c3e50;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+header .home-button:hover {
+	background-color: #2980b9;
+	color: #ecf0f1;
+}
+
+header, footer {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+	top: 0;
+}
+
+footer {
+	bottom: 0;
+}
+
+header h1, footer p {
+	margin: 0;
+	color: white;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	/* Semi-transparent background */
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+table, th, td {
+	border: 1px solid #ddd;
+}
+
+.table-container {
+	overflow-x: auto;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.message {
+	color: white;
+}
+
+th, td {
+	padding: 10px;
+	text-align: center;
+	max-width: 300px;
+	word-wrap: break-word;
+	word-break: break-word;
+	white-space: normal;
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.form-container form {
+	align-items: center;
+	justify-content: center;
+}
+
+.form-container label {
+	margin-right: 10px;
+	color: white; /* Set label color to white */
+}
+
+.form-container input[type="text"] {
+	padding: 10px;
+	margin-right: 10px;
+	font-size: 16px;
+	color: black; /* Set text color inside input */
+	background-color: white; /* Input background color */
+	border: none;
+	border-radius: 4px;
+}
+
+.form-container input[type="submit"] {
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: white; /* Button background color */
+	color: black; /* Button text color */
+	border: none;
+	border-radius: 4px;
+}
+
+.blogs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.blog-post {
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	color: white; /* Ensure text color is white */
+}
+
+.blog-post img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.pagination a {
+	margin: 0 5px;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.7);
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.pagination a.active {
+	background-color: rgba(255, 255, 255, 0.7);
+	color: black;
+}
+
+.pagination a:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+footer {
+	text-align: center;
+	padding: 10px 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	margin-top: 20px;
+}
+
+th {
+	background-color: #f2f2f2;
+	color: black;
+	white-space: nowrap; /* Prevent word wrapping in headers */
+}
+
+a {
+	color: skyblue;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 200px;
+	height: 200px;
+}
+
+td {
+	color: white;
+}
+
+p {
+	text-align: center;
+	color: white;
+}
