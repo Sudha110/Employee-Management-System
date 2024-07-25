@@ -100,10 +100,9 @@ USE customer_db;
 
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) NOT NULL,
+    username VARCHAR(50) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL
 );
-
 CREATE TABLE customers (
     uuid VARCHAR(36) PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
@@ -115,6 +114,7 @@ CREATE TABLE customers (
     email VARCHAR(100),
     phone VARCHAR(20)
 );
+
 ```
 
 ## Running the Application
